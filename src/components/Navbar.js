@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { FaBars, FaTimes, FaLinkedin } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
+import { FaBars, FaTimes, FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
+import { AiFillInstagram } from 'react-icons/ai';
 import { Link } from 'react-scroll';
 
 export const Navbar = () => {
@@ -14,7 +14,7 @@ export const Navbar = () => {
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#fff4e0] top-0 z-50'>
       <div>
         <a className=' font-bold text-base uppercase text-[#052123] ' href='/'>
-          Akis Tsolaklidis
+          WEB DEVELOPER
         </a>
       </div>
       <ul className='hidden md:flex  '>
@@ -128,7 +128,7 @@ export const Navbar = () => {
         <ul>
           <li className='w-[100px] h-[50px] flex justify-between items-center ml-[-50px] hover:ml-[-10px] duration-300 bg-[#052123] opacity-[0.85] rounded-t-md '>
             <a
-              href='https://www.linkedin.com/'
+              href='https://www.linkedin.com/in/afif-syam-fauzi-365b84270/'
               className='flex justify-between  items-center w-full text-[#fff4e0] '
             >
               LI. <FaLinkedin size={30} />
@@ -136,10 +136,28 @@ export const Navbar = () => {
           </li>
           <li className='w-[100px] h-[50px] flex justify-between items-center ml-[-50px] hover:ml-[-10px] duration-300 bg-[#052123] opacity-[0.85] rounded-b-md '>
             <a
-              href='https://gmail.com'
+              href='https://www.instagram.com/affsyamf/'
               className='flex justify-between  items-center w-full text-[#fff4e0]'
             >
-              EM. <HiOutlineMail size={30} />{' '}
+              IG. <AiFillInstagram size={30} />{' '}
+            </a>
+          </li>
+          <li className='w-[100px] h-[50px] flex justify-between items-center ml-[-50px] hover:ml-[-10px] duration-300 bg-[#052123] opacity-[0.85] rounded-b-md '>
+            <a
+              href='https://github.com/Affsyamf'
+              className='flex justify-between  items-center w-full text-[#fff4e0]'
+            >
+              GIT. <FaGithub size={30} />{' '}
+            </a>
+          </li>
+          <li className='w-[100px] h-[50px] flex justify-between items-center ml-[-50px] hover:ml-[-10px] duration-300 bg-[#052123] opacity-[0.85] rounded-b-md '>
+            <a
+              href='https://wa.me/6289517644630'
+              className='flex justify-between  items-center w-full text-[#fff4e0]'
+              target='_blank'
+              rel="noopener noreferrer"
+            >
+              WA. <FaWhatsapp size={30} />{' '}
             </a>
           </li>
           {/*  <li className='w-[100px] h-[50px] flex justify-between items-center ml-[-50px] hover:ml-[-10px] duration-300'>

@@ -1,8 +1,9 @@
 import { About } from './components/About';
-import Contact from './components/Contact';
+import Certificate from './components/Certificate';
+// import Contact from './components/Contact';
 import { Education } from './components/Education';
-import { Exprerience } from './components/Experience';
-
+import { Experience } from './components/Experience';
+import Footer from './components/footer';
 import Landing from './components/Landing';
 import { Navbar } from './components/Navbar';
 
@@ -24,10 +25,13 @@ function App() {
           <Education />
         </div>
         <div>
-          <Exprerience />
+          <Experience />
         </div>
         <div>
-          <Contact />
+          <Certificate />
+        </div>
+        <div>
+          <Footer />
         </div>
       </main>
     </div>
