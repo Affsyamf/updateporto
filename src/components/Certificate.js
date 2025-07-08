@@ -4,20 +4,92 @@ const certificates = [
   {
     id: 1,
     title: 'Sertifikat Publish Jurnal',
-    description: 'Pelatihan dasar keamanan siber oleh Telkom University.',
+    description: 'Publish Jurnal di CSIT Inovasi  Kampas Rem.',
     pdfUrl: 'sertif paper.pdf', // Link ke PDF
+  },
+  {
+    id: 1,
+    title: 'Sertifikat Penghargaan Menjadi Asisten Dosen',
+    description: 'Menjadi Asisten Dosen Pada Mata Kuliah Sistem Jaringan Komputer.',
+    pdfUrl: 'SJK.pdf', // Link ke PDF
+  },
+  {
+    id: 1,
+    title: 'Sertifikat Penghargaan Menjadi Asisten Dosen',
+    description: 'Menjadi Asisten Dosen Pada Mata Kuliah Alpro Lanjut.',
+    pdfUrl: 'alpro.pdf', // Link ke PDF
+  },
+  {
+    id: 1,
+    title: 'Sertifikat Penghargaan Menjadi Asisten Dosen',
+    description: 'Menjadi Asisten Dosen Pada Mata Kuliah Sistem Operasi.',
+    pdfUrl: 'SISOP.pdf', // Link ke PDF
+  },
+  {
+    id: 1,
+    title: 'Sertifikat Penghargaan Menjadi Asisten Dosen',
+    description: 'Menjadi Asisten Dosen Pada Mata Kuliah Sistem Digital.',
+    pdfUrl: 'SISDIG.pdf', // Link ke PDF
+  },
+  {
+    id: 1,
+    title: 'Sertifikat Anggota Himpunan Mahasiswa Teknik Komputer',
+    description: 'Menjadi Anggota HIMA Teknik Komputer Department Internal.',
+    pdfUrl: 'HIMA.pdf', // Link ke PDF
+  },
+  {
+    id: 1,
+    title: 'Sertifikat Anggota PKKMB Jurusan Teknik Komputer',
+    description: 'Menjadi Anggota Ospek Teknik Komputer Divisi Komdis.',
+    pdfUrl: 'PKKMB.pdf', // Link ke PDF
+  },
+  {
+    id: 1,
+    title: 'Sertifikat Mengikuti Pelatihan CCNAv7',
+    description: 'Pelatihan Cisco tentang Networking, Security, dan Automation.',
+    pdfUrl: 'CCNAv7.pdf', // Link ke PDF
   },
   {
     id: 2,
     title: 'Sertifikat Bootcamp Machine Learning',
-    description: 'Diberikan oleh Dicoding setelah menyelesaikan kursus React untuk pemula.',
+    description: 'Diberikan oleh Dicoding setelah menyelesaikan kursus Machine Learning untuk pemula.',
     pdfUrl: 'ml.pdf', // Gambar lokal/public
   },
   {
     id: 2,
-    title: 'Sertifikat Machine Learning',
-    description: 'Diberikan oleh Dicoding setelah menyelesaikan kursus React untuk pemula.',
+    title: 'Sertifikat Pelatihan Machine Learning Google Cloud',
+    description: 'Diberikan oleh Dicoding setelah menyelesaikan kursus Machine Learning untuk pemula.',
     pdfUrl: 'ml2.pdf', // Gambar lokal/public
+  },
+  {
+    id: 2,
+    title: 'Sertifikat Pelatihan Machine Learning TensorFlow',
+    description: 'Diberikan oleh Dicoding setelah menyelesaikan kursus Machine Learning untuk pemula.',
+    pdfUrl: 'ml3.pdf', // Gambar lokal/public
+  },
+  {
+    id: 2,
+    title: 'Sertifikat Pelatihan Flutter Image Picker',
+    description: 'Diberikan oleh Dicoding setelah menyelesaikan kursus Flutter untuk pemula.',
+    pdfUrl: 'f1.pdf', // Gambar lokal/public
+  },
+  {
+    id: 2,
+    title: 'Sertifikat Pelatihan Flutter Go Router',
+    description: 'Diberikan oleh Dicoding setelah menyelesaikan kursus Flutter untuk pemula.',
+    pdfUrl: 'f2.pdf', // Gambar lokal/public
+  },
+  {
+    id: 2,
+    title: 'Sertifikat Pelatihan Flutter Navigasi Navigator 2.0',
+    description: 'Diberikan oleh Dicoding setelah menyelesaikan kursus Flutter untuk pemula.',
+    pdfUrl: 'f3.pdf', // Gambar lokal/public
+  },
+  {
+    id: 2,
+    title: 'Sertifikat Pelatihan Mobile Engineering',
+    description: 'Diberikan oleh Dicoding setelah menyelesaikan kursus Mobile Engineering untuk pemula.',
+    pdfUrl: 'me.pdf', // Gambar lokal/public
   },
   {
     id: 2,
@@ -40,27 +112,40 @@ const certificates = [
   {
     id: 3,
     title: 'Sertifikat Pelatihan Virtual Asisstant',
-    description: 'Sertifikat dari DIgital Skola 2024.',
+    description: 'Sertifikat dari Menyelesaikan Course DIgital Skola 2024.',
     imageUrl: 'va.png',
   },
   {
     id: 3,
-    title: 'Sertifikat Pelatihan Virtual Asisstant',
-    description: 'Sertifikat dari DIgital Skola 2024.',
-    imageUrl: 'va.png',
+    title: 'Sertifikat Pelatihan DevOps Engineer',
+    description: 'Sertifikat dari Menyelesaikan Course DIgital Skola 2024.',
+    imageUrl: 'devops.png',
   },
   {
     id: 3,
-    title: 'Sertifikat Pelatihan Virtual Asisstant',
-    description: 'Sertifikat dari DIgital Skola 2024.',
-    imageUrl: 'va.png',
+    title: 'Sertifikat Pelatihan Quality Engineer (QA)',
+    description: 'Sertifikat dari Menyelesaikan Course DIgital Skola 2024.',
+    imageUrl: 'qa.png',
   },
   {
-    id: 4,
-    title: 'Sertifikat Publish Jurnal',
-    description: 'Pelatihan dasar keamanan siber oleh Telkom University.',
-    pdfUrl: 'sertif paper.pdf', // Link ke PDF
+    id: 3,
+    title: 'Sertifikat Pelatihan Technical Writer',
+    description: 'Sertifikat dari Menyelesaikan Course DIgital Skola 2024.',
+    imageUrl: 'tw.png',
   },
+  {
+    id: 3,
+    title: 'Sertifikat Pelatihan AI Basics Overview of AI',
+    description: 'Sertifikat dari Menyelesaikan Course Huawei 2024.',
+    imageUrl: 'ai.png',
+  },
+  {
+    id: 3,
+    title: 'Sertifikat Pelatihan Overview of IoT Tehcnologies',
+    description: 'Sertifikat dari Menyelesaikan Course Huawei 2024.',
+    imageUrl: 'iot.png',
+  },
+  
   // Tambahkan lebih banyak sertifikat di sini jika perlu
 ];
 
