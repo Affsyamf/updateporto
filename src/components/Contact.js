@@ -65,7 +65,7 @@ const Contact = () => {
           </p>
           <div className='my-5'>
             <p>
-              Submit the form below or shoot me an email - myemail@gmail.com
+              Submit the form below or shoot me an email - afiffauzi2016@gmail.com
             </p>
           </div>
         </div>

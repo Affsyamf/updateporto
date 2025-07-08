@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-react-app",
+  "name": "porto",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,5 +41,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "https://github.com/GrigorisPan/portfolioTemplate/assets/32704151/01f491c8-b25c-4575-900b-b04ebf05bc70",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrigorisPan/portfolioTemplate.git"
+  },
+  "author": "afif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrigorisPan/portfolioTemplate/issues"
+  },
+  "homepage": "https://github.com/GrigorisPan/portfolioTemplate#readme"
 }

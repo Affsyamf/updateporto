@@ -14,24 +14,18 @@ export const About = () => {
         </div>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right text-3xl sm:text-4xl font-semibold'>
-            <p>Hi. I'm Akis nice to meet you. Please take a look around</p>
+            <p>About</p>
           </div>
-          <div>
+
+         {/* paragraf */}
+
+          <div className='text-justify leading-relaxed text-lg sm:text-xl'>
             <p>
-              🌍🔧I am an environmental engineer and my favourite about my
-              profession is the energy production, savings or energy streams.
-            </p>
-            <br />
-            <p>
-              ♻️Therfore recycle always was my passion so i like a lot the
-              recycling systems. In addition i have learn about anti-pollutant
-              technologies.
-            </p>
-            <br />
-            <p>
-              🎓I have study at University of Western Macedonia in Kozani,Greece
-              and my thesis was about a cogeneration of electricity and heat
-              system fueled by natural gas.
+              Saya adalah seorang <strong>Web Developer</strong> dan <strong>Teknisi Perangkat Keras</strong> dengan lebih dari 2 tahun pengalaman 
+              dalam pengembangan <strong>Full-Stack Application Website</strong> dan <strong>Embedded System</strong>. 
+              Memiliki latar belakang teknis yang kuat dalam merancang solusi yang <em>inovatif</em> dan <em>efisien</em>, 
+              saya selalu antusias terhadap teknologi terbaru, mampu bekerja kolaboratif dalam tim, 
+              dan berfokus pada pengalaman pengguna serta keberhasilan proyek.
             </p>
           </div>
         </div>
