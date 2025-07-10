@@ -151,7 +151,7 @@ const certificates = [
 
 const Certificate = () => {
   return (
-    <div className="w-full px-4 py-12 lg:mx-auto xl:ml-70 bg-[#062325]">
+    <div className="w-full px-4 py-12 lg:mx-auto xl:ml-70 bg-[#062325]" id='certificate'>
       <div className='w-full flex flex-col'>
           <div className='text-left sm:text-center pb-8'>
             <p className='text-4xl sm:text-5xl text-[#fff4e0] font-medium font-[Prata] inline border-b-2 border-[#fff4e0]'>
