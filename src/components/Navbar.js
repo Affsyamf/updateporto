@@ -34,7 +34,7 @@ export const Navbar = () => {
           <Link offset={-80} to='experience' smooth={true} duration={500}>Experience</Link>
         </li>
         <li>
-          <Link offset={-80} to='contact' smooth={true} duration={500}>Certificate</Link>
+          <Link offset={-80} to='certificate' smooth={true} duration={500}>Certificate</Link>
         </li>
       </ul>
 
@@ -88,7 +88,7 @@ export const Navbar = () => {
           <Link onClick={handleClickMenuIcon} to='experience' smooth={true} duration={500} offset={-80}>Experience</Link>
         </li>
         <li className='py-4 text-2xl'>
-          <Link onClick={handleClickMenuIcon} to='contact' smooth={true} duration={500} offset={-80}>Certificate</Link>
+          <Link onClick={handleClickMenuIcon} to='certificate' smooth={true} duration={500} offset={-80}>Certificate</Link>
         </li>
       </ul>
 
