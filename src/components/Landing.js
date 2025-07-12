@@ -37,7 +37,7 @@ const Landing = () => {
             #PHP, #SQL
             </p>
             <div className="mt-6">
-              <a href="CV_Juli.pdf"
+              <a href="CV AFIF Juli.pdf"
                target="_blank" 
                rel="noopener noreferrer">
                 <button className="group border-2 border-[#fff4e0] px-4 py-2 flex items-center hover:bg-[#fff4e0] hover:text-[#052123] transition">
